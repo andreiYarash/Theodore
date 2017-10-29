@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA6BE6C1FA5FB3800145647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6BE6B1FA5FB3800145647 /* AppDelegate.swift */; };
+		1FA6BE6E1FA5FB3800145647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6BE6D1FA5FB3800145647 /* ViewController.swift */; };
+		1FA6BE711FA5FB3900145647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6BE6F1FA5FB3900145647 /* Main.storyboard */; };
+		1FA6BE741FA5FB3900145647 /* TheodoreApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6BE721FA5FB3900145647 /* TheodoreApp.xcdatamodeld */; };
+		1FA6BE761FA5FB3900145647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6BE751FA5FB3900145647 /* Assets.xcassets */; };
+		1FA6BE791FA5FB3900145647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6BE771FA5FB3900145647 /* LaunchScreen.storyboard */; };
+		1FA6BE841FA5FB3D00145647 /* TheodoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6BE831FA5FB3D00145647 /* TheodoreAppTests.swift */; };
+		1FA6BE8F1FA5FB3D00145647 /* TheodoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6BE8E1FA5FB3D00145647 /* TheodoreAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA6BE801FA5FB3D00145647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA6BE601FA5FB3700145647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA6BE671FA5FB3700145647;
+			remoteInfo = TheodoreApp;
+		};
+		1FA6BE8B1FA5FB3D00145647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA6BE601FA5FB3700145647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA6BE671FA5FB3700145647;
+			remoteInfo = TheodoreApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA6BE681FA5FB3700145647 /* TheodoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheodoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6BE6B1FA5FB3800145647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FA6BE6D1FA5FB3800145647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FA6BE701FA5FB3900145647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FA6BE731FA5FB3900145647 /* TheodoreApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheodoreApp.xcdatamodel; sourceTree = "<group>"; };
+		1FA6BE751FA5FB3900145647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FA6BE781FA5FB3900145647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FA6BE7A1FA5FB3A00145647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA6BE7F1FA5FB3D00145647 /* TheodoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheodoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6BE831FA5FB3D00145647 /* TheodoreAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheodoreAppTests.swift; sourceTree = "<group>"; };
+		1FA6BE851FA5FB3D00145647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA6BE8A1FA5FB3D00145647 /* TheodoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheodoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6BE8E1FA5FB3D00145647 /* TheodoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheodoreAppUITests.swift; sourceTree = "<group>"; };
+		1FA6BE901FA5FB3E00145647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA6BE651FA5FB3700145647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6BE7C1FA5FB3D00145647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6BE871FA5FB3D00145647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA6BE5F1FA5FB3600145647 = {
+			isa = PBXGroup;
+			children = (
+				1FA6BE6A1FA5FB3700145647 /* TheodoreApp */,
+				1FA6BE821FA5FB3D00145647 /* TheodoreAppTests */,
+				1FA6BE8D1FA5FB3D00145647 /* TheodoreAppUITests */,
+				1FA6BE691FA5FB3700145647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA6BE691FA5FB3700145647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6BE681FA5FB3700145647 /* TheodoreApp.app */,
+				1FA6BE7F1FA5FB3D00145647 /* TheodoreAppTests.xctest */,
+				1FA6BE8A1FA5FB3D00145647 /* TheodoreAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA6BE6A1FA5FB3700145647 /* TheodoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6BE6B1FA5FB3800145647 /* AppDelegate.swift */,
+				1FA6BE6D1FA5FB3800145647 /* ViewController.swift */,
+				1FA6BE6F1FA5FB3900145647 /* Main.storyboard */,
+				1FA6BE751FA5FB3900145647 /* Assets.xcassets */,
+				1FA6BE771FA5FB3900145647 /* LaunchScreen.storyboard */,
+				1FA6BE7A1FA5FB3A00145647 /* Info.plist */,
+				1FA6BE721FA5FB3900145647 /* TheodoreApp.xcdatamodeld */,
+			);
+			path = TheodoreApp;
+			sourceTree = "<group>";
+		};
+		1FA6BE821FA5FB3D00145647 /* TheodoreAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6BE831FA5FB3D00145647 /* TheodoreAppTests.swift */,
+				1FA6BE851FA5FB3D00145647 /* Info.plist */,
+			);
+			path = TheodoreAppTests;
+			sourceTree = "<group>";
+		};
+		1FA6BE8D1FA5FB3D00145647 /* TheodoreAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6BE8E1FA5FB3D00145647 /* TheodoreAppUITests.swift */,
+				1FA6BE901FA5FB3E00145647 /* Info.plist */,
+			);
+			path = TheodoreAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA6BE671FA5FB3700145647 /* TheodoreApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6BE931FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreApp" */;
+			buildPhases = (
+				1FA6BE641FA5FB3700145647 /* Sources */,
+				1FA6BE651FA5FB3700145647 /* Frameworks */,
+				1FA6BE661FA5FB3700145647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheodoreApp;
+			productName = TheodoreApp;
+			productReference = 1FA6BE681FA5FB3700145647 /* TheodoreApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FA6BE7E1FA5FB3D00145647 /* TheodoreAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6BE961FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreAppTests" */;
+			buildPhases = (
+				1FA6BE7B1FA5FB3D00145647 /* Sources */,
+				1FA6BE7C1FA5FB3D00145647 /* Frameworks */,
+				1FA6BE7D1FA5FB3D00145647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA6BE811FA5FB3D00145647 /* PBXTargetDependency */,
+			);
+			name = TheodoreAppTests;
+			productName = TheodoreAppTests;
+			productReference = 1FA6BE7F1FA5FB3D00145647 /* TheodoreAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FA6BE891FA5FB3D00145647 /* TheodoreAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6BE991FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreAppUITests" */;
+			buildPhases = (
+				1FA6BE861FA5FB3D00145647 /* Sources */,
+				1FA6BE871FA5FB3D00145647 /* Frameworks */,
+				1FA6BE881FA5FB3D00145647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA6BE8C1FA5FB3D00145647 /* PBXTargetDependency */,
+			);
+			name = TheodoreAppUITests;
+			productName = TheodoreAppUITests;
+			productReference = 1FA6BE8A1FA5FB3D00145647 /* TheodoreAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA6BE601FA5FB3700145647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Andrei;
+				TargetAttributes = {
+					1FA6BE671FA5FB3700145647 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					1FA6BE7E1FA5FB3D00145647 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FA6BE671FA5FB3700145647;
+					};
+					1FA6BE891FA5FB3D00145647 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FA6BE671FA5FB3700145647;
+					};
+				};
+			};
+			buildConfigurationList = 1FA6BE631FA5FB3700145647 /* Build configuration list for PBXProject "TheodoreApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FA6BE5F1FA5FB3600145647;
+			productRefGroup = 1FA6BE691FA5FB3700145647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA6BE671FA5FB3700145647 /* TheodoreApp */,
+				1FA6BE7E1FA5FB3D00145647 /* TheodoreAppTests */,
+				1FA6BE891FA5FB3D00145647 /* TheodoreAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA6BE661FA5FB3700145647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6BE791FA5FB3900145647 /* LaunchScreen.storyboard in Resources */,
+				1FA6BE761FA5FB3900145647 /* Assets.xcassets in Resources */,
+				1FA6BE711FA5FB3900145647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6BE7D1FA5FB3D00145647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6BE881FA5FB3D00145647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA6BE641FA5FB3700145647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6BE741FA5FB3900145647 /* TheodoreApp.xcdatamodeld in Sources */,
+				1FA6BE6E1FA5FB3800145647 /* ViewController.swift in Sources */,
+				1FA6BE6C1FA5FB3800145647 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6BE7B1FA5FB3D00145647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6BE841FA5FB3D00145647 /* TheodoreAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6BE861FA5FB3D00145647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6BE8F1FA5FB3D00145647 /* TheodoreAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA6BE811FA5FB3D00145647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA6BE671FA5FB3700145647 /* TheodoreApp */;
+			targetProxy = 1FA6BE801FA5FB3D00145647 /* PBXContainerItemProxy */;
+		};
+		1FA6BE8C1FA5FB3D00145647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA6BE671FA5FB3700145647 /* TheodoreApp */;
+			targetProxy = 1FA6BE8B1FA5FB3D00145647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FA6BE6F1FA5FB3900145647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA6BE701FA5FB3900145647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FA6BE771FA5FB3900145647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA6BE781FA5FB3900145647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA6BE911FA5FB3E00145647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FA6BE921FA5FB3E00145647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FA6BE941FA5FB3E00145647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DMUCUY464;
+				INFOPLIST_FILE = TheodoreApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.TheodoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FA6BE951FA5FB3E00145647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DMUCUY464;
+				INFOPLIST_FILE = TheodoreApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.TheodoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FA6BE971FA5FB3E00145647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DMUCUY464;
+				INFOPLIST_FILE = TheodoreAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.TheodoreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheodoreApp.app/TheodoreApp";
+			};
+			name = Debug;
+		};
+		1FA6BE981FA5FB3E00145647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DMUCUY464;
+				INFOPLIST_FILE = TheodoreAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.TheodoreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheodoreApp.app/TheodoreApp";
+			};
+			name = Release;
+		};
+		1FA6BE9A1FA5FB3E00145647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DMUCUY464;
+				INFOPLIST_FILE = TheodoreAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.TheodoreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheodoreApp;
+			};
+			name = Debug;
+		};
+		1FA6BE9B1FA5FB3E00145647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DMUCUY464;
+				INFOPLIST_FILE = TheodoreAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.TheodoreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheodoreApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA6BE631FA5FB3700145647 /* Build configuration list for PBXProject "TheodoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6BE911FA5FB3E00145647 /* Debug */,
+				1FA6BE921FA5FB3E00145647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6BE931FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6BE941FA5FB3E00145647 /* Debug */,
+				1FA6BE951FA5FB3E00145647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6BE961FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6BE971FA5FB3E00145647 /* Debug */,
+				1FA6BE981FA5FB3E00145647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6BE991FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6BE9A1FA5FB3E00145647 /* Debug */,
+				1FA6BE9B1FA5FB3E00145647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FA6BE721FA5FB3900145647 /* TheodoreApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FA6BE731FA5FB3900145647 /* TheodoreApp.xcdatamodel */,
+			);
+			currentVersion = 1FA6BE731FA5FB3900145647 /* TheodoreApp.xcdatamodel */;
+			path = TheodoreApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FA6BE601FA5FB3700145647 /* Project object */;
+}
