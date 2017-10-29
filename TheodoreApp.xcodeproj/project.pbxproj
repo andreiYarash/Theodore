@@ -15,6 +15,9 @@
 		1FA6BE791FA5FB3900145647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6BE771FA5FB3900145647 /* LaunchScreen.storyboard */; };
 		1FA6BE841FA5FB3D00145647 /* TheodoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6BE831FA5FB3D00145647 /* TheodoreAppTests.swift */; };
 		1FA6BE8F1FA5FB3D00145647 /* TheodoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6BE8E1FA5FB3D00145647 /* TheodoreAppUITests.swift */; };
+		3982280E016472F3A272F32C /* Pods_TheodoreApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1684F18FD0E9A4680DFE54 /* Pods_TheodoreApp.framework */; };
+		BA21919DBD57C48D5E8460ED /* Pods_TheodoreAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236B075D277139E2D75675C3 /* Pods_TheodoreAppUITests.framework */; };
+		DBDA9D85376CD7308C5F1944 /* Pods_TheodoreAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D723C2D8CA2D4027795F881 /* Pods_TheodoreAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1684F18FD0E9A4680DFE54 /* Pods_TheodoreApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheodoreApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA6BE681FA5FB3700145647 /* TheodoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheodoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA6BE6B1FA5FB3800145647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FA6BE6D1FA5FB3800145647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		1FA6BE8A1FA5FB3D00145647 /* TheodoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheodoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA6BE8E1FA5FB3D00145647 /* TheodoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheodoreAppUITests.swift; sourceTree = "<group>"; };
 		1FA6BE901FA5FB3E00145647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236B075D277139E2D75675C3 /* Pods_TheodoreAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheodoreAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B7D2CACA8AAAD1ACA5087F /* Pods-TheodoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheodoreApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheodoreApp/Pods-TheodoreApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0CF6BC9D456F5C5A1D2DAA /* Pods-TheodoreAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheodoreAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheodoreAppUITests/Pods-TheodoreAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53250E1165F38D5E5154DF19 /* Pods-TheodoreAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheodoreAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheodoreAppUITests/Pods-TheodoreAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F2D135D43625A4B28A79789 /* Pods-TheodoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheodoreApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheodoreApp/Pods-TheodoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		7D723C2D8CA2D4027795F881 /* Pods_TheodoreAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheodoreAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40009B51440178B95C3DA99 /* Pods-TheodoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheodoreAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheodoreAppTests/Pods-TheodoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C61ECB8ADD007CB2DFC1B488 /* Pods-TheodoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheodoreAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheodoreAppTests/Pods-TheodoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3982280E016472F3A272F32C /* Pods_TheodoreApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDA9D85376CD7308C5F1944 /* Pods_TheodoreAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA21919DBD57C48D5E8460ED /* Pods_TheodoreAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				1FA6BE821FA5FB3D00145647 /* TheodoreAppTests */,
 				1FA6BE8D1FA5FB3D00145647 /* TheodoreAppUITests */,
 				1FA6BE691FA5FB3700145647 /* Products */,
+				B886A881753C125E5A0C48ED /* Pods */,
+				2FE9A0F8F015203562D475BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = TheodoreAppUITests;
 			sourceTree = "<group>";
 		};
+		2FE9A0F8F015203562D475BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C1684F18FD0E9A4680DFE54 /* Pods_TheodoreApp.framework */,
+				7D723C2D8CA2D4027795F881 /* Pods_TheodoreAppTests.framework */,
+				236B075D277139E2D75675C3 /* Pods_TheodoreAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B886A881753C125E5A0C48ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44B7D2CACA8AAAD1ACA5087F /* Pods-TheodoreApp.debug.xcconfig */,
+				6F2D135D43625A4B28A79789 /* Pods-TheodoreApp.release.xcconfig */,
+				A40009B51440178B95C3DA99 /* Pods-TheodoreAppTests.debug.xcconfig */,
+				C61ECB8ADD007CB2DFC1B488 /* Pods-TheodoreAppTests.release.xcconfig */,
+				4C0CF6BC9D456F5C5A1D2DAA /* Pods-TheodoreAppUITests.debug.xcconfig */,
+				53250E1165F38D5E5154DF19 /* Pods-TheodoreAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FA6BE931FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreApp" */;
 			buildPhases = (
+				F836E4D65D6C378A4A9B911D /* [CP] Check Pods Manifest.lock */,
 				1FA6BE641FA5FB3700145647 /* Sources */,
 				1FA6BE651FA5FB3700145647 /* Frameworks */,
 				1FA6BE661FA5FB3700145647 /* Resources */,
+				3D025CAFABC56E84CBE22EE3 /* [CP] Embed Pods Frameworks */,
+				6903B341D48E75CD6139B38B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FA6BE961FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreAppTests" */;
 			buildPhases = (
+				77D7F1DE92F371A10E880096 /* [CP] Check Pods Manifest.lock */,
 				1FA6BE7B1FA5FB3D00145647 /* Sources */,
 				1FA6BE7C1FA5FB3D00145647 /* Frameworks */,
 				1FA6BE7D1FA5FB3D00145647 /* Resources */,
+				9A131AEF6F6B45D706079593 /* [CP] Embed Pods Frameworks */,
+				00FBC27D85F240A31AFC23E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FA6BE991FA5FB3E00145647 /* Build configuration list for PBXNativeTarget "TheodoreAppUITests" */;
 			buildPhases = (
+				B1FBDE21E91F305D4CD59B68 /* [CP] Check Pods Manifest.lock */,
 				1FA6BE861FA5FB3D00145647 /* Sources */,
 				1FA6BE871FA5FB3D00145647 /* Frameworks */,
 				1FA6BE881FA5FB3D00145647 /* Resources */,
+				F0581CDA1BC80509D530765A /* [CP] Embed Pods Frameworks */,
+				E7416708697B1FB76C397DB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FBC27D85F240A31AFC23E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheodoreAppTests/Pods-TheodoreAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D025CAFABC56E84CBE22EE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheodoreApp/Pods-TheodoreApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6903B341D48E75CD6139B38B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TheodoreApp/Pods-TheodoreApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheodoreApp/Pods-TheodoreApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D7F1DE92F371A10E880096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheodoreAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A131AEF6F6B45D706079593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheodoreAppTests/Pods-TheodoreAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1FBDE21E91F305D4CD59B68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheodoreAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7416708697B1FB76C397DB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheodoreAppUITests/Pods-TheodoreAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0581CDA1BC80509D530765A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheodoreAppUITests/Pods-TheodoreAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F836E4D65D6C378A4A9B911D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheodoreApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FA6BE641FA5FB3700145647 /* Sources */ = {
@@ -428,6 +627,7 @@
 		};
 		1FA6BE941FA5FB3E00145647 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B7D2CACA8AAAD1ACA5087F /* Pods-TheodoreApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +643,7 @@
 		};
 		1FA6BE951FA5FB3E00145647 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2D135D43625A4B28A79789 /* Pods-TheodoreApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +659,7 @@
 		};
 		1FA6BE971FA5FB3E00145647 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40009B51440178B95C3DA99 /* Pods-TheodoreAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +677,7 @@
 		};
 		1FA6BE981FA5FB3E00145647 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61ECB8ADD007CB2DFC1B488 /* Pods-TheodoreAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +695,7 @@
 		};
 		1FA6BE9A1FA5FB3E00145647 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0CF6BC9D456F5C5A1D2DAA /* Pods-TheodoreAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +712,7 @@
 		};
 		1FA6BE9B1FA5FB3E00145647 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53250E1165F38D5E5154DF19 /* Pods-TheodoreAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
